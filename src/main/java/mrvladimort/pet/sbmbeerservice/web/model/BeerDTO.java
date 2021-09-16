@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import mrvladimort.pet.sbmbeerservice.web.model.enums.BeerStyleEnum;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
@@ -23,7 +22,7 @@ public class BeerDTO {
     private OffsetDateTime lastModifiedDate;
 
     private String name;
-    private BeerStyleEnum style;
+    private String style;
     private Long upc;
     private BigDecimal price;
     private Integer quantityOnHand;
